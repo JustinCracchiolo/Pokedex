@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Pokedex</title>
+        <link rel = "stylesheet" href = "index.css">
+        <script src = "index.js"></script>
+    </head>
+    <body> 
+        <div id = "title">
+            <h1 id = "title"><img src = "https://th.bing.com/th/id/OIP.bx_URiXFLM1pPKTjmyPMnwAAAA?rs=1&pid=ImgDetMain" alt = "pokedex logo" ></h1>
+        </div>
+        <div id = "search">
+            <label>Enter Pokemon Name: </label><input type = "search" id = "enter-name" placeholder = "search pokemon">
+            <button type = "submit" onClick = "getPokeData()">Search</button>
+        </div>
+        <div id = "card">
+            <p id = "name"></p>
+            <div id = "poke-img"> 
+                <img id = "myImg">
+            </div>
+            <div id = "type-lables">
+                <button class = "type" id = "type1" disabled></button>
+                <button class="type" id = "type2" disabled></button>
+            </div>
+            <div class="border">
+                <div id = "hp">HP</div>
+            </div>
+            <div class="border">
+                <div id = "attack">Attack</div>
+            </div>
+            <div class="border">
+                <div id = "defense">Defense</div>
+            </div>
+        </div>
+    </body>
+</html>

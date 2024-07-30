@@ -1,0 +1,85 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    text-align: center;
+}
+
+label {
+    padding-right: 5px;
+}
+
+#name {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    color: white;
+}
+
+#myImg {
+    width: 300px;
+    height: 250px;
+    visibility: hidden;
+    margin-top: 0;
+}
+
+#card {
+    width: 50%;
+    height: 600px;
+    display: column;
+    justify-content: center;
+    margin: 0 auto;
+    border: 3px solid grey;
+    background-color: grey;
+}
+
+#poke-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.type {
+    font-size: 25px;
+    border-radius: 50%;
+    width: 100px;
+    height: 50px;
+    margin-left: 180px;
+    background: white;
+    color: black;
+}
+
+#type-labels {
+    width: 100%;
+}
+
+.border {
+    width: 300px;
+    height: 25px;
+    margin: 0 auto;
+    border: 2px solid white;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+
+#hp, #attack, #defense {
+    height: 25px;
+    background: pink;
+    width: 300px;
+}
